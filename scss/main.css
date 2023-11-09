@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
+header {
+  width: 20%;
+}
+header .profile {
+  display: block;
+}
+header .profile .round {
+  height: 130px;
+  width: 130px;
+  background: gray;
+  border-radius: 65px;
+  margin: 0 auto;
+}
+header .profile h1 {
+  font-weight: 700;
+  font-size: 35px;
+  font-family: "EB Garamond", serif;
+  color: rgb(0, 0, 0);
+}
+header nav ul li:hover {
+  background-color: red;
+}
+header nav ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.726);
+}
+header .social-icon i {
+  width: 50px;
+  font-size: 25px;
+  padding: 12px;
+  color: rgb(0, 0, 0);
+}
+header .social-icon i:hover {
+  background-color: red;
+  transition: 0.3s all ease-in-out;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

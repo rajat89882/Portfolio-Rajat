@@ -20,9 +20,12 @@
   </head>
 
   <body>
+    <i id="nav-icon" class="fal fa-bars d-md-none d-block"></i>
+
     <header
-      class="d-flex flex-column justify-content-center align-content-center text-center py-4 gap-5"
+     
     >
+   <div class="header  flex-column justify-content-center align-content-center text-center py-4 gap-5">
       <a href="#">
         <div class="profile">
           <div class="round">
@@ -59,8 +62,9 @@
         <a href="#"><i id="insta " class="fab fa-instagram"></i></a>
         <a href="#"> <i id="linked " class="fab fa-linkedin-in"></i></a>
       </div>
+    </div>
     </header>
-    <section class="banner d-none">
+    <section class="banner">
       <div class="banner1">
         <div class="container-xl">
           <div class="name">
@@ -72,7 +76,7 @@
         </div>
       </div>
     </section>
-    <section class="about d-none">
+    <section class="about">
       <div class="container-xl">
         <div class="head">
           <h1>About Me</h1>
@@ -99,7 +103,7 @@
             </div>
             <div class="ab-r align-items-center d-flex gap-3">
               <p>Residence</p>
-              <span>USA</span>
+              <span>INDIA</span>
             </div>
             <div class="ab-r align-items-center d-flex gap-3">
               <p>Address</p>
@@ -129,7 +133,7 @@
         </div>
       </div>
     </section>
-    <section class="resume position-relative">
+    <section class="resume position-relative d-none">
       <div class="container-xl">
         <div class="head">
           <h1>Resume</h1>
@@ -194,6 +198,13 @@
           $("#home").removeClass("trans-1");
         });
       });
+
+      $("#nav-icon").click(function () {
+          $("header").toggleClass("d-block");
+       
+       
+        });
+      
     </script>
   </body>
 </html>

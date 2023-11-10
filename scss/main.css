@@ -23,48 +23,51 @@ header {
   background-color: #222222;
   width: 20%;
 }
-header .profile {
+header .header {
+  display: flex;
+}
+header .header .profile {
   display: block;
 }
-header .profile .round {
+header .header .profile .round {
   height: 130px;
   width: 130px;
   border-radius: 65px;
   margin: 6.6666px auto;
 }
-header .profile .round .round-img img {
+header .header .profile .round .round-img img {
   border-radius: 50%;
 }
-header .profile h1 {
+header .header .profile h1 {
   font-weight: 700;
   font-size: 30px;
   font-family: "EB Garamond", serif;
   color: white;
 }
-header nav ul #home {
+header .header nav ul #home {
   background: rgba(0, 0, 0, 0.2196078431);
   border-right: 2px solid #ff714a;
 }
-header nav ul li {
+header .header nav ul li {
   padding: 10px;
   transition: 0.3s ease;
 }
-header nav ul li:hover {
+header .header nav ul li:hover {
   background-color: rgba(0, 0, 0, 0.2196078431);
   border-right: 2px solid #ff714a;
 }
-header nav ul li a {
+header .header nav ul li a {
   font-size: 18px;
   font-weight: 500;
   color: white;
 }
-header .social-icon i {
+header .header .social-icon i {
   width: 50px;
   font-size: 25px;
   padding: 12px;
   color: white;
 }
-header .social-icon i:hover {
+header .header .social-icon i:hover {
   background-color: #ff714a;
   transition: 0.3s all ease-in-out;
   color: white;
@@ -189,4 +192,26 @@ header .social-icon i:hover {
   z-index: 22;
   height: 50%;
   z-index: 0;
+}
+
+#nav-icon {
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  header {
+    display: none;
+    width: 63%;
+  }
+  .banner {
+    height: 100vh;
+  }
+  .about {
+    height: 900px;
+  }
 }/*# sourceMappingURL=main.css.map */

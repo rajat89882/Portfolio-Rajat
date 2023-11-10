@@ -18,60 +18,63 @@ body {
 header {
   background-color: #222222;
   width: 20%;
-  .profile {
-    display: block;
-    .round {
-      height: 130px;
-      width: 130px;
-      border-radius: 65px;
-      margin: 6.6666px auto;
-      .round-img {
-        img {
-          border-radius: 50%;
+  .header {
+    display: flex;
+    .profile {
+      display: block;
+      .round {
+        height: 130px;
+        width: 130px;
+        border-radius: 65px;
+        margin: 6.6666px auto;
+        .round-img {
+          img {
+            border-radius: 50%;
+          }
         }
       }
-    }
-    h1 {
-      font-weight: 700;
-      font-size: 30px;
-      font-family: "EB Garamond", serif;
-      color: white;
-    }
-  }
-  nav {
-    ul {
-      #home {
-        background: #00000038;
-        border-right: 2px solid #ff714a;
+      h1 {
+        font-weight: 700;
+        font-size: 30px;
+        font-family: "EB Garamond", serif;
+        color: white;
       }
-      li {
-        padding: 10px;
-        transition: 0.3s ease;
-
-        &:hover {
-          background-color: #00000038;
+    }
+    nav {
+      ul {
+        #home {
+          background: #00000038;
           border-right: 2px solid #ff714a;
         }
-        a {
-          font-size: 18px;
-          font-weight: 500;
-          color: white;
+        li {
+          padding: 10px;
+          transition: 0.3s ease;
+
+          &:hover {
+            background-color: #00000038;
+            border-right: 2px solid #ff714a;
+          }
+          a {
+            font-size: 18px;
+            font-weight: 500;
+            color: white;
+          }
         }
       }
     }
-  }
-  .social-icon {
-    i {
-      width: 50px;
-      font-size: 25px;
-      padding: 12px;
-      color: white;
-      &:hover {
-        background-color: #ff714a;
-        transition: 0.3s all ease-in-out;
+    .social-icon {
+      i {
+        width: 50px;
+        font-size: 25px;
+        padding: 12px;
         color: white;
-        transform: scale(1.1);
-        transition: 0.5s ease;
+        &:hover {
+          background-color: #ff714a;
+          transition: 0.3s all ease-in-out;
+          color: white;
+          transform: scale(1.1);
+          transition: 0.5s ease;
+        }
       }
     }
   }
@@ -198,5 +201,26 @@ header {
       height: 50%;
       z-index: 0;
     }
+  }
+}
+#nav-icon {
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  header {
+    display: none;
+    width: 63%;
+  }
+  .banner {
+    height: 100vh;
+  }
+  .about {
+    height: 900px;
   }
 }

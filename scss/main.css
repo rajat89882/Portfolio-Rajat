@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 body {
   display: flex;
+  cursor: url("/images/circle.png"), auto;
 }
 
 .container-xl {
@@ -79,6 +80,7 @@ header .header .social-icon i:hover {
   background-image: url("/images/back.jpg");
   width: 100%;
   background-size: cover;
+  animation: ani 0.3s;
 }
 .banner .banner1 {
   display: flex;
@@ -104,11 +106,20 @@ header .header .social-icon i:hover {
   height: 50px;
 }
 
+@keyframes ani {
+  to {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
 .about {
   display: none;
   padding: 25px 0px;
   background-color: black;
   width: 100%;
+  animation: ani 0.3s;
 }
 .about .head h1 {
   color: white;

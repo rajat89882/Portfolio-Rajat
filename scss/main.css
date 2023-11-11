@@ -96,6 +96,7 @@ header .header .social-icon i:hover {
 .banner .banner1 .name h1 {
   font-size: 45px;
   font-weight: 700;
+  text-align: center;
 }
 .banner .banner1 .name p {
   font-size: 25px;

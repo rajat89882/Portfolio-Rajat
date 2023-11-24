@@ -1,23 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 body {
   display: flex;
-cursor:poonter;
+  cursor: poonter;
 }
 .cursor {
-	width: 50px;
-	height: 50px;
-	border: 1px solid #ff714a;
-	border-radius: 69%;
-	position: absolute;
-  
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid #ff714a;
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+  z-index: 991;
 }
-.cursor2 {
-	width: 20px;
-	height: 20px;
-background:#ff714a;
-	border-radius: 69%;
-	position: absolute;
 
+.cursor2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #ff714a;
+  opacity: 0.8;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width 0.3s, height 0.3s, opacity 0.3s;
+  z-index: 992;
 }
 .container-xl {
   max-width: 1050px;
@@ -100,7 +110,7 @@ header {
   background-image: url("/images/back.jpg");
   width: 100%;
   background-size: cover;
-   animation: ani 0.6s ;
+  animation: ani 0.6s;
   .banner1 {
     display: flex;
     justify-content: center;
@@ -126,19 +136,19 @@ header {
   }
 }
 @keyframes ani {
-    to{
-        transform: rotate(0deg);
-    }
-    from{
-        transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
 }
 .about {
   display: none;
   padding: 25px 0px;
   background-color: black;
   width: 100%;
-  animation: ani 0.3s ;
+  animation: ani 0.3s;
   .head {
     h1 {
       color: white;
@@ -164,9 +174,6 @@ header {
       font-size: 18px;
       font-weight: 700;
       padding: 4px 0;
-
-      span {
-      }
     }
   }
   .web-d {

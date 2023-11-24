@@ -253,4 +253,10 @@ header .header .social-icon i:hover {
   .about {
     height: 900px;
   }
+  .cursor {
+    display: none;
+  }
+  .cursor2 {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

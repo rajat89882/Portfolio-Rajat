@@ -24,7 +24,3 @@ var tl = gsap.timeline();
     stagger: 0.5,
   });
 }
-
-
-
-

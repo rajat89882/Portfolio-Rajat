@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 body {
   display: flex;
-  cursor: poonter;
 }
 
 .cursor {
@@ -242,6 +241,10 @@ header .header .social-icon i:hover {
   cursor: pointer;
 }
 
+#nav-icon {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   header {
     display: none;
@@ -258,5 +261,8 @@ header .header .social-icon i:hover {
   }
   .cursor2 {
     display: none;
+  }
+  #nav-icon {
+    display: block;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -263,6 +263,8 @@ header .header .social-icon i:hover {
     display: none;
   }
   #nav-icon {
-    display: block;
+    display: block !important;
+    position: absolute;
+    z-index: 9999;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -267,6 +267,8 @@ header {
     display: none;
   }
   #nav-icon {
-    display: block;
+    display: block !important;
+    position: absolute;
+    z-index: 9999;
   }
 }

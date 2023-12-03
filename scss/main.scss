@@ -254,7 +254,7 @@ header {
       background-color: black;
       padding: 10px;
       text-align: center;
-      width: 21%;
+      width: 203px;
       font-weight: 600;
       font-size: 16px;
       letter-spacing: 1px;
@@ -437,6 +437,8 @@ header {
   header {
     display: none;
     width: 63%;
+    position:absolute;
+    z-index:999;
   }
   .about {
     height: 100% !important;

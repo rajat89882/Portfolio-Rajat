@@ -193,7 +193,7 @@ header .header .social-icon i:hover {
   color: white;
 }
 .resume .about-l h2 {
-  width: 15%;
+  width: 128px;
   border-bottom: 2px solid #ff714a;
 }
 .resume .about-l p {
@@ -245,7 +245,7 @@ header .header .social-icon i:hover {
   background-color: black;
   padding: 10px;
   text-align: center;
-  width: 21%;
+  width: 203px;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -279,7 +279,7 @@ header .header .social-icon i:hover {
 }
 .portfolio .port-l h2 {
   border-bottom: 2px solid #ff714a;
-  width: 16%;
+  width: 143px;
   line-height: 48px;
 }
 .portfolio .p-box {
@@ -381,11 +381,25 @@ header .header .social-icon i:hover {
   header {
     display: none;
     width: 63%;
+    position: absolute !important;
+    z-index: 999 !important;
   }
   .about {
     height: 100% !important;
   }
   .about {
+    padding-top: 57px;
+    height: 100%;
+  }
+  .resume {
+    padding-top: 57px;
+    height: 100%;
+  }
+  .portfolio {
+    padding-top: 57px;
+    height: 100%;
+  }
+  .contact {
     padding-top: 57px;
     height: 100%;
   }

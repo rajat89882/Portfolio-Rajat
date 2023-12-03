@@ -201,7 +201,7 @@ header {
   .about-l {
     color: white;
     h2 {
-      width: 15%;
+      width: 128px;
       border-bottom: 2px solid $color;
     }
     p {
@@ -290,7 +290,7 @@ header {
     }
     h2 {
       border-bottom: 2px solid $color;
-      width: 16%;
+      width: 143px;
       line-height: 48px;
     }
   }
@@ -374,52 +374,7 @@ header {
       line-height: 48px;
     }
   }
-  .namel{
-    width: 50%;
-    input {
-      border: none;
-      background: #25292c;
-      height: 35px;
-      color: $white;
-      transition: all 0.3s ease-out;
-      transform-origin: center;
-      transform: scale(1, 1);
-      cursor: auto;
-      width: 100%;
-    }
-  }
-  .msg {
-    width: 50%;
-    textarea {
-      border: none;
-      background: #25292c;
-      color: $white;
-      transition: all 0.3s ease-out;
-      transform-origin: center;
-      transform: scale(1, 1);
-      cursor: auto;
-      width: 100%;
-    }
-    #msg-btn {
-      border: 1px solid #4f4a4a;
-      font-size: 20px;
-      font-family: "Cinzel", serif;
-      line-height: 28px;
-      font-weight: 600;
-      background: black;
-      padding: 6px;
-      transition: 0.6s all ease-in-out;
-      a {
-        color: $white;
-      }
-      &:hover a {
-        color: black;
-      }
-      &:hover {
-        background-color: white;
-      }
-    }
-  }
+
 }
 #nav-icon {
   font-size: 35px;
@@ -437,13 +392,25 @@ header {
   header {
     display: none;
     width: 63%;
-    position:absolute;
-    z-index:999;
+    position:absolute !important;
+    z-index:999 !important;
   }
   .about {
     height: 100% !important;
   }
   .about {
+    padding-top: 57px;
+    height: 100%;
+  }
+  .resume {
+    padding-top: 57px;
+    height: 100%;
+  }
+   .portfolio {
+    padding-top: 57px;
+    height: 100%;
+  }
+    .contact {
     padding-top: 57px;
     height: 100%;
   }

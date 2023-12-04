@@ -115,6 +115,7 @@ header .header .social-icon i:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 25px 0px;
 }
 .banner .banner1 {
   display: flex;
@@ -550,7 +551,10 @@ header .header .social-icon i:hover {
   }
   .contact {
     padding-top: 57px;
-    height: 100vh !important;
+    height: 100% !important;
+  }
+  .contact .contact-l h2 {
+    width: 28%;
   }
   .cursor {
     display: none;

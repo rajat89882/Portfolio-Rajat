@@ -120,7 +120,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  padding: 25px 0px;
   .banner1 {
     display: flex;
     justify-content: center;
@@ -564,7 +564,12 @@ header {
   }
   .contact {
     padding-top: 57px;
-    height: 100vh !important;
+    height: 100% !important;
+    .contact-l {
+      h2 {
+        width: 28%;
+      }
+    }
   }
   .cursor {
     display: none;

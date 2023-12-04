@@ -349,7 +349,7 @@ header .header .social-icon i:hover {
   padding: 25px 0px;
   background-color: black;
   width: 100%;
-  height: 41em;
+  height: 100%;
 }
 .contact .head h1 {
   color: white;
@@ -368,6 +368,144 @@ header .header .social-icon i:hover {
   border-bottom: 2px solid #ff714a;
   width: 18%;
   line-height: 48px;
+}
+.contact .contact-info {
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+.contact .contact-info h2 {
+  color: white;
+  font-size: 25px;
+}
+.contact .contact-info p {
+  font-size: 16px;
+  width: 70%;
+  color: white;
+  font-weight: 600;
+}
+.contact .contact-info .cn-no .call i {
+  color: #ff714a;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-info .cn-no .call p {
+  width: 100%;
+}
+.contact .contact-info .cn-no .Email i {
+  color: #ff714a;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-info .cn-no .Email p {
+  width: 100%;
+}
+.contact .contact-info .cn-no .Whatsapp i {
+  color: #ff714a;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-info .cn-no .Whatsapp p {
+  width: 100%;
+}
+.contact .contact-info .follow {
+  width: 100%;
+}
+.contact .contact-info .follow p {
+  color: white;
+  font-size: 25px;
+  width: 100%;
+}
+.contact .contact-info .follow .social-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 25px;
+}
+.contact .contact-info .follow .social-c a i {
+  color: white;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-info .follow .social-c a:hover {
+  background-color: #ff714a;
+}
+.contact .namel {
+  width: 100%;
+}
+.contact .namel input {
+  width: 50%;
+  background-color: #2a2a2a;
+  border: none;
+  color: white;
+  padding: 8px;
+}
+.contact .namel input::-moz-placeholder {
+  color: rgb(140, 138, 138);
+  font-weight: 600;
+}
+.contact .namel input::placeholder {
+  color: rgb(140, 138, 138);
+  font-weight: 600;
+}
+.contact .msg {
+  width: 100%;
+}
+.contact .msg textarea {
+  width: 100%;
+  background-color: #2a2a2a;
+  border: none;
+  color: white;
+  padding: 8px;
+}
+.contact .msg textarea::-moz-placeholder {
+  color: rgb(140, 138, 138);
+  font-weight: 600;
+}
+.contact .msg textarea::placeholder {
+  color: rgb(140, 138, 138);
+  font-weight: 600;
+}
+.contact .msg-btn1 {
+  background-color: black;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.contact .msg-btn1 .msg-btn {
+  border: 1px solid rgb(255, 113, 74);
+  border-radius: 25px;
+  color: rgb(255, 113, 74);
+  background-color: black;
+  padding: 8px;
+  text-align: center;
+  width: 203px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.contact .msg-btn1 .msg-btn:hover {
+  background-color: #ff714a;
+  color: white;
 }
 
 #nav-icon {

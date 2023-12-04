@@ -49,7 +49,7 @@
             <a href="#">Portfolio</a>
           </li>
           <li id="contact">
-            <a href="#">Conatct</a>
+            <a href="#">Contact</a>
           </li>
         </ul>
       </nav>
@@ -313,16 +313,62 @@
       <div class="contact-l mt-4">
         <h2>Get in Touch</h2>
       </div>
-      <form class="d-flex flex-column justify-content-center align-items-center gap-2 py-5">
-        <div class="namel d-flex gap-3">
-          <input type="search" name="search" id="search" placeholder=" Name*">
-          <input type="search" name="search" id="email" placeholder=" Email*">
+      <div class="row">
+        <div class="col-md-4 py-5">
+          <div class="contact-info d-flex flex-column justify-content-center align-items-center  gap-4">
+            <h2>Address</h1>
+              <p>4th Floor, Plot No.22,
+                145 Murphy Canyon Rd.
+                San Diego CA 2028</p>
+              <div class="cn-no">
+                <div class="call d-flex align-items-center gap-3 "><i class="fa-solid fa-phone"></i>
+                  <a href="tel:88949464407">
+                    <p>+91 8894964407</p>
+                  </a>
+
+                </div>
+                <div class="Whatsapp d-flex align-items-center gap-3 "><i class="fa-brands fa-whatsapp"></i>
+                  <a href="https://wa.me/8894964407">
+                    <p>+91 8894964407</p>
+                  </a>
+                </div>
+                <div class="Email d-flex align-items-center gap-3 "><i class="fa-solid fa-envelope"></i>
+                  <p>rc8988293@gmail.com</p>
+                </div>
+              </div>
+              <div class="follow">
+                <p>Follow Me</p>
+                <div class="social-c py-2">
+                  <a target="_blank" href="https://www.facebook.com/rajat.rj.3950"><i id="fb "
+                      class="fab fa-facebook-f"></i></a>
+                  <a target="_blank"
+                    href="https://instagram.com/r.a.j.a.t_12?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><i id="insta "
+                      class="fab fa-instagram"></i></a>
+                  <a target="_blank" href="https://in.linkedin.com/in/rajat-choudhary-b6742523a"> <i id="linked "
+                      class="fab fa-linkedin-in"></i></a>
+                  <a target="_blank" href="https://github.com/rajat89882?tab=repositories"> <i
+                      class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+          </div>
         </div>
-        <div class="msg d-flex flex-column justify-content-end align-items-end gap-2 ">
-          <textarea id="w3review" name="w3review" rows="5" cols="46" placeholder=" Message"></textarea>
-          <button id="msg-btn"><a href="#">SEND MESSAGE</a></button>
+        <div class="col-md-8">
+          <form target="_blank" action="https://formsubmit.co/rc8988293@gmail.com" method="POST" class="d-flex flex-column
+        gap-4 py-5">
+            <div class="namel d-flex gap-3">
+              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+            </div>
+            <div class="msg">
+              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <div class="msg-btn1">
+              <button target=”_blank” type="submit" class="msg-btn">
+                Submit </button>
+            </div>
+          </form>
         </div>
-      </form>
+      </div>
     </div>
   </section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -427,6 +473,7 @@
     });
     $(document).ready(function () {
     });
+
   </script>
 </body>
 

@@ -47,7 +47,7 @@ body .bg-white {
 }
 body .mode {
   position: absolute;
-  top: 13px;
+  top: 16px;
   right: 3%;
   z-index: 99;
 }
@@ -536,7 +536,7 @@ body #nav-icon {
   font-size: 35px;
   color: white;
   position: absolute;
-  left: 30px;
+  left: 13px;
   top: 15px;
   cursor: pointer;
   font-weight: 500;
@@ -589,7 +589,7 @@ body.white-theme .trans-1 {
 }
 body.white-theme .mode {
   position: absolute;
-  top: 13px;
+  top: 16px;
   right: 3%;
   z-index: 99;
 }
@@ -1069,7 +1069,7 @@ body.white-theme #nav-icon {
   font-size: 35px;
   color: black;
   position: absolute;
-  left: 30px;
+  left: 13px;
   top: 15px;
   cursor: pointer;
   font-weight: 500;

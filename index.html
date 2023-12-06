@@ -23,6 +23,7 @@
   </div>
   <div class="mode">
     <i id="dark" class="fa-solid fa-moon"></i>
+    <i id="light" class="fa-solid fa-lightbulb"></i>
   </div>
   <i id="nav-icon" class="fal fa-bars nav-i"></i>
   <header>
@@ -77,7 +78,7 @@
       </div>
     </div>
   </section>
-  <section class="about">
+  <section class="about py-5">
     <div class="container-xl">
       <div class="head">
         <h1>About Me</h1>
@@ -469,7 +470,7 @@
       });
       $(".mode i").click(function () {
         $("body").toggleClass("white-theme");
-
+        $("#light").toggleClass("scale");
       });
     });
 

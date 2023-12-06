@@ -1174,6 +1174,9 @@ body.white-theme #nav-icon {
   header .header .profile h1 {
     font-size: 25px !important;
   }
+  .banner {
+    background-position: left !important;
+  }
 }
 @media (max-width: 400px) {
   header {

@@ -62,6 +62,9 @@ body .mode i {
   border-radius: 50%;
   cursor: pointer;
   color: black;
+  transition: all 0.3s ease-out;
+  transform-origin: center;
+  transform: scale(1, 1);
 }
 body .mode #light {
   scale: 0;
@@ -71,6 +74,9 @@ body .mode #light {
 }
 body .mode:hover #light {
   scale: 1;
+  transition: all 0.3s ease-out;
+  transform-origin: center;
+  transform: scale(1, 1);
 }
 body header {
   background-color: #222222;
@@ -605,6 +611,22 @@ body.white-theme .mode i {
   cursor: pointer;
   color: white;
 }
+body.white-theme .mode #dark {
+  scale: 0;
+  color: white;
+}
+body.white-theme .mode:hover #light {
+  scale: 0 !important;
+  transition: all 0.3s ease-out;
+  transform-origin: center;
+  transform: scale(1, 1);
+}
+body.white-theme .mode:hover #dark {
+  scale: 1 !important;
+  transition: all 0.3s ease-out;
+  transform-origin: center;
+  transform: scale(1, 1);
+}
 body.white-theme header {
   background-color: #ebe7e7;
   width: 25%;
@@ -672,7 +694,7 @@ body.white-theme .banner {
   width: 100%;
   background-size: cover;
   animation: ani 0.6s;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25px 0px;

@@ -62,6 +62,9 @@ body {
       border-radius: 50%;
       cursor: pointer;
       color: black;
+      transition: all 0.3s ease-out;
+      transform-origin: center;
+      transform: scale(1, 1);
     }
     #light {
       scale: 0;
@@ -71,6 +74,9 @@ body {
     }
     &:hover #light {
       scale: 1;
+      transition: all 0.3s ease-out;
+      transform-origin: center;
+      transform: scale(1, 1);
     }
   }
   header {
@@ -636,6 +642,22 @@ body.white-theme {
       cursor: pointer;
       color: white;
     }
+    #dark {
+      scale: 0;
+      color: white;
+    }
+    &:hover #light {
+      scale: 0 !important;
+      transition: all 0.3s ease-out;
+      transform-origin: center;
+      transform: scale(1, 1);
+    }
+    &:hover #dark {
+      scale: 1 !important;
+      transition: all 0.3s ease-out;
+      transform-origin: center;
+      transform: scale(1, 1);
+    }
   }
 
   header {
@@ -726,7 +748,7 @@ body.white-theme {
     width: 100%;
     background-size: cover;
     animation: ani 0.6s;
-    background-position: center;
+    background-position:bottom;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 25px 0px;

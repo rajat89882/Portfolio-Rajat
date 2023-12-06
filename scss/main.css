@@ -54,8 +54,8 @@ body .mode {
 body .mode i {
   cursor: pointer;
   background: white;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -596,8 +596,8 @@ body.white-theme .mode {
 body.white-theme .mode i {
   cursor: pointer;
   background: black;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1177,17 +1177,20 @@ body.white-theme #nav-icon {
     height: 100vh !important;
   }
 }
-@media (max-width: 510px) {
+@media (max-width: 570px) {
   header {
     display: none;
-    width: 50% !important;
+    width: 56% !important;
     z-index: 999 !important;
     height: 100vh !important;
     position: fixed;
   }
   header .header {
     position: absolute;
-    width: 50% !important;
+    width: 56% !important;
+  }
+  header .header .profile h1 {
+    font-size: 25px !important;
   }
   .about {
     height: 100% !important;
@@ -1230,14 +1233,14 @@ body.white-theme #nav-icon {
 @media (max-width: 400px) {
   header {
     display: none;
-    width: 50% !important;
+    width: 56% !important;
     z-index: 999 !important;
     height: 100vh !important;
     position: fixed;
   }
   header .header {
     position: absolute;
-    width: 50% !important;
+    width: 56% !important;
   }
   header .header .profile h1 {
     font-size: 25px !important;

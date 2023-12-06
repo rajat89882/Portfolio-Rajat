@@ -54,8 +54,8 @@ body {
     i {
       cursor: pointer;
       background: white;
-      width: 35px;
-      height: 35px;
+      width: 40px;
+      height: 40px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -627,8 +627,8 @@ body.white-theme {
     i {
       cursor: pointer;
       background: black;
-      width: 35px;
-      height: 35px;
+      width: 40px;
+      height: 40px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1305,16 +1305,21 @@ body.white-theme {
     height: 100vh !important;
   }
 }
-@media (max-width: 510px) {
+@media (max-width: 570px) {
   header {
     display: none;
-    width: 50% !important;
+    width: 56% !important;
     z-index: 999 !important;
     height: 100vh !important;
     position: fixed;
     .header {
       position: absolute;
-      width: 50% !important;
+      width: 56% !important;
+      .profile {
+        h1 {
+          font-size: 25px !important;
+        }
+      }
     }
   }
   .about {
@@ -1360,13 +1365,13 @@ body.white-theme {
 @media (max-width: 400px) {
   header {
     display: none;
-    width: 50% !important;
+    width: 56% !important;
     z-index: 999 !important;
     height: 100vh !important;
     position: fixed;
     .header {
       position: absolute;
-      width: 50% !important;
+      width: 56% !important;
       .profile {
         h1 {
           font-size: 25px !important;

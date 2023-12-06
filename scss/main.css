@@ -173,7 +173,7 @@ body .about {
   padding: 25px 0px;
   background-color: black;
   width: 100%;
-  height: 100% !important;
+  height: 100vh;
 }
 body .about .head h1 {
   color: white;
@@ -705,7 +705,7 @@ body.white-theme .about {
   padding: 25px 0px;
   background-color: white;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 body.white-theme .about .head h1 {
   color: black;
@@ -1090,22 +1090,19 @@ body.white-theme #nav-icon {
     width: 25% !important;
   }
   .about {
+    padding: 60px 0px !important;
     height: 100% !important;
   }
-  .about {
-    padding-top: 57px;
-    height: 100vh !important;
-  }
   .resume {
-    padding-top: 57px;
+    padding-top: 60px 0px !important;
     height: 100%;
   }
   .portfolio {
-    padding-top: 57px;
+    padding-top: 60px 0px !important;
     height: 100% !important;
   }
   .contact {
-    padding-top: 57px;
+    padding-top: 60px 0px !important;
     height: 100% !important;
   }
   .contact .contact-l h2 {
@@ -1139,43 +1136,6 @@ body.white-theme #nav-icon {
     position: absolute;
     width: 35% !important;
   }
-  .about {
-    height: 100% !important;
-  }
-  .about {
-    padding-top: 57px;
-    height: 100vh !important;
-  }
-  .resume {
-    padding-top: 57px;
-    height: 100%;
-  }
-  .portfolio {
-    padding-top: 57px;
-    height: 100% !important;
-  }
-  .contact {
-    padding-top: 57px;
-    height: 100% !important;
-  }
-  .contact .contact-l h2 {
-    width: 28%;
-  }
-  .cursor {
-    display: none;
-  }
-  .cursor2 {
-    display: none;
-  }
-  #nav-icon {
-    display: block !important;
-    position: fixed;
-    z-index: 9999;
-    left: 21px;
-  }
-  .banner {
-    height: 100vh !important;
-  }
 }
 @media (max-width: 570px) {
   header {
@@ -1192,43 +1152,6 @@ body.white-theme #nav-icon {
   header .header .profile h1 {
     font-size: 25px !important;
   }
-  .about {
-    height: 100% !important;
-  }
-  .about {
-    padding-top: 57px;
-    height: 100vh !important;
-  }
-  .resume {
-    padding-top: 57px;
-    height: 100%;
-  }
-  .portfolio {
-    padding-top: 57px;
-    height: 100% !important;
-  }
-  .contact {
-    padding-top: 57px;
-    height: 100% !important;
-  }
-  .contact .contact-l h2 {
-    width: 28%;
-  }
-  .cursor {
-    display: none;
-  }
-  .cursor2 {
-    display: none;
-  }
-  #nav-icon {
-    display: block !important;
-    position: fixed;
-    z-index: 9999;
-    left: 21px;
-  }
-  .banner {
-    height: 100vh !important;
-  }
 }
 @media (max-width: 400px) {
   header {
@@ -1244,42 +1167,5 @@ body.white-theme #nav-icon {
   }
   header .header .profile h1 {
     font-size: 25px !important;
-  }
-  .about {
-    height: 100% !important;
-  }
-  .about {
-    padding-top: 57px;
-    height: 100vh !important;
-  }
-  .resume {
-    padding-top: 57px;
-    height: 100%;
-  }
-  .portfolio {
-    padding-top: 57px;
-    height: 100% !important;
-  }
-  .contact {
-    padding-top: 57px;
-    height: 100% !important;
-  }
-  .contact .contact-l h2 {
-    width: 28%;
-  }
-  .cursor {
-    display: none;
-  }
-  .cursor2 {
-    display: none;
-  }
-  #nav-icon {
-    display: block !important;
-    position: fixed;
-    z-index: 9999;
-    left: 21px;
-  }
-  .banner {
-    height: 100vh !important;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -2,8 +2,7 @@
 body {
   display: flex;
 }
-
-.cursor {
+body .cursor {
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -16,8 +15,7 @@ body {
   transform: translate(calc(-50% + 15px), -50%);
   z-index: 991;
 }
-
-.cursor2 {
+body .cursor2 {
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -29,85 +27,102 @@ body {
   transition: width 0.3s, height 0.3s, opacity 0.3s;
   z-index: 992;
 }
-
-.container-xl {
+body .container-xl {
   max-width: 1050px;
 }
-
-.trans {
+body .trans {
   background-color: transparent !important;
   border: none !important;
 }
-
-.trans-1 {
+body .trans-1 {
   background: rgba(0, 0, 0, 0.2196078431);
   border-right: 2px solid #ff714a;
 }
-
-header {
+body .bg-white {
+  background-color: white;
+  color: black;
+}
+body .mode {
+  position: absolute;
+  top: 13px;
+  right: 3%;
+  z-index: 99;
+}
+body .mode i {
+  cursor: pointer;
+  background: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: black;
+}
+body header {
   background-color: #222222;
   width: 25%;
 }
-header .header {
+body header .header {
   display: flex;
   width: 20%;
   position: fixed;
 }
-header .header .profile {
+body header .header .profile {
   display: block;
 }
-header .header .profile .round {
+body header .header .profile .round {
   height: 130px;
   width: 130px;
   border-radius: 65px;
   margin: 6.6666px auto;
 }
-header .header .profile .round .round-img img {
+body header .header .profile .round .round-img img {
   border-radius: 50%;
   border: 2px solid #ff714a;
 }
-header .header .profile h1 {
+body header .header .profile h1 {
   font-weight: 700;
   font-size: 30px;
   font-family: "EB Garamond", serif;
   color: white;
 }
-header .header nav ul #home {
+body header .header nav ul #home {
   background: rgba(0, 0, 0, 0.2196078431);
   border-right: 2px solid #ff714a;
 }
-header .header nav ul #home:hover {
+body header .header nav ul #home:hover {
   background-color: rgba(0, 0, 0, 0.2196078431) !important;
   border-right: 2px solid #ff714a !important;
 }
-header .header nav ul li {
+body header .header nav ul li {
   padding: 10px;
   transition: 0.3s ease;
 }
-header .header nav ul li:hover {
+body header .header nav ul li:hover {
   background-color: rgba(0, 0, 0, 0.2196078431);
   border-right: 2px solid #ff714a;
 }
-header .header nav ul li a {
+body header .header nav ul li a {
   font-size: 18px;
   font-weight: 500;
   color: white;
 }
-header .header .social-icon i {
+body header .header .social-icon i {
   width: 50px;
   font-size: 25px;
   padding: 12px;
   color: white;
 }
-header .header .social-icon i:hover {
+body header .header .social-icon i:hover {
   background-color: #ff714a;
   transition: 0.3s all ease-in-out;
   color: white;
   transform: scale(1.1);
   transition: 0.5s ease;
 }
-
-.banner {
+body .banner {
   background-image: url("/images/back.jpg");
   width: 100%;
   background-size: cover;
@@ -116,96 +131,95 @@ header .header .social-icon i:hover {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25px 0px;
+  overflow: hidden;
+  height: 100vh;
 }
-.banner .banner1 {
+body .banner .banner1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
-.banner .banner1 .name {
+body .banner .banner1 .name {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
 }
-.banner .banner1 .name h1 {
+body .banner .banner1 .name h1 {
   font-size: 45px;
   font-weight: 700;
   text-align: center;
 }
-.banner .banner1 .name p {
+body .banner .banner1 .name p {
   font-size: 25px;
   font-weight: 700;
   height: 50px;
 }
-
-.about {
+body .about {
   display: none;
   padding: 25px 0px;
   background-color: black;
   width: 100%;
-  height: 41em;
+  height: 100vh;
 }
-.about .head h1 {
+body .about .head h1 {
   color: white;
   font-size: 40px;
   font-weight: 700;
   border-bottom: 2px solid rgba(255, 255, 255, 0.55);
 }
-.about .about-l {
+body .about .about-l {
   color: white;
 }
-.about .about-l p {
+body .about .about-l p {
   font-size: 16px;
   font-weight: 500;
 }
-.about .about-r {
+body .about .about-r {
   color: white;
 }
-.about .about-r #mail {
+body .about .about-r #mail {
   color: #ff714a;
 }
-.about .about-r p {
+body .about .about-r p {
   border-bottom: 1px solid #ff714a;
   font-size: 18px;
   font-weight: 700;
   padding: 4px 0;
 }
-.about .web-d {
+body .about .web-d {
   color: white;
 }
-.about .web-d p {
+body .about .web-d p {
   font-size: 16px;
   font-weight: 500;
 }
-
-.resume {
+body .resume {
   display: none;
   padding: 25px 0px;
   background-color: black;
   width: 100%;
   height: 100%;
 }
-.resume .head h1 {
+body .resume .head h1 {
   color: white;
   font-size: 40px;
   font-weight: 700;
   border-bottom: 2px solid rgba(255, 255, 255, 0.55);
 }
-.resume .about-l {
+body .resume .about-l {
   color: white;
 }
-.resume .about-l h2 {
+body .resume .about-l h2 {
   width: 128px;
   border-bottom: 2px solid #ff714a;
 }
-.resume .about-l p {
+body .resume .about-l p {
   font-size: 16px;
   font-weight: 500;
 }
-.resume .uni {
+body .resume .uni {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -213,7 +227,7 @@ header .header .social-icon i:hover {
   color: white;
   height: 145px;
 }
-.resume .line {
+body .resume .line {
   height: 146px;
   width: 2px;
   background: rgb(54, 54, 54);
@@ -221,7 +235,7 @@ header .header .social-icon i:hover {
   flex-direction: column;
   align-items: center;
 }
-.resume .round {
+body .resume .round {
   height: 15px;
   width: 15px;
   border: 3px solid #ff714a;
@@ -232,7 +246,7 @@ header .header .social-icon i:hover {
   align-items: center;
   margin-top: 60px;
 }
-.resume .co {
+body .resume .co {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -240,10 +254,10 @@ header .header .social-icon i:hover {
   height: 125px;
   color: white;
 }
-.resume .hire-me {
+body .resume .hire-me {
   text-align: center;
 }
-.resume .hire-me button {
+body .resume .hire-me button {
   border: 1px solid #ff714a;
   border-radius: 25px;
   color: #ff714a;
@@ -255,50 +269,49 @@ header .header .social-icon i:hover {
   font-size: 16px;
   letter-spacing: 1px;
 }
-.resume .hire-me button i {
+body .resume .hire-me button i {
   width: 30px;
 }
-.resume .hire-me button:hover {
+body .resume .hire-me button:hover {
   background-color: #ff714a;
   color: white;
 }
-
-.portfolio {
+body .portfolio {
   display: none;
   padding: 25px 0px;
   background-color: black;
   width: 100%;
   height: 100%;
 }
-.portfolio .head h1 {
+body .portfolio .head h1 {
   color: white;
   font-size: 40px;
   font-weight: 700;
   border-bottom: 2px solid rgba(255, 255, 255, 0.55);
 }
-.portfolio .port-l {
+body .portfolio .port-l {
   color: white;
 }
-.portfolio .port-l p {
+body .portfolio .port-l p {
   font-size: 16px;
   font-weight: 500;
 }
-.portfolio .port-l h2 {
+body .portfolio .port-l h2 {
   border-bottom: 2px solid #ff714a;
   width: 173px;
   line-height: 48px;
 }
-.portfolio .p-box {
+body .portfolio .p-box {
   height: 200px;
   position: relative;
 }
-.portfolio .p-box img {
+body .portfolio .p-box img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
   transition: 0.3s all ease-in-out;
 }
-.portfolio .p-box p {
+body .portfolio .p-box p {
   display: none;
   text-align: center;
   position: absolute;
@@ -310,23 +323,23 @@ header .header .social-icon i:hover {
   color: #222222;
   transition: 0.6s all ease-in-out;
 }
-.portfolio .p-box:hover p {
+body .portfolio .p-box:hover p {
   display: block;
 }
-.portfolio .p-box:hover img {
+body .portfolio .p-box:hover img {
   filter: blur(10px);
 }
-.portfolio .p-box2 {
+body .portfolio .p-box2 {
   height: 200px;
   position: relative;
 }
-.portfolio .p-box2 img {
+body .portfolio .p-box2 img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
   transition: 0.3s all ease-in-out;
 }
-.portfolio .p-box2 p {
+body .portfolio .p-box2 p {
   display: none;
   text-align: center;
   position: absolute;
@@ -338,54 +351,53 @@ header .header .social-icon i:hover {
   color: white;
   transition: 0.6s all ease-in-out;
 }
-.portfolio .p-box2:hover p {
+body .portfolio .p-box2:hover p {
   display: block;
 }
-.portfolio .p-box2:hover img {
+body .portfolio .p-box2:hover img {
   filter: blur(10px);
 }
-
-.contact {
+body .contact {
   display: none;
   padding: 25px 0px;
   background-color: black;
   width: 100%;
   height: 100%;
 }
-.contact .head h1 {
+body .contact .head h1 {
   color: white;
   font-size: 40px;
   font-weight: 700;
   border-bottom: 2px solid rgba(255, 255, 255, 0.55);
 }
-.contact .contact-l {
+body .contact .contact-l {
   color: white;
 }
-.contact .contact-l p {
+body .contact .contact-l p {
   font-size: 16px;
   font-weight: 500;
 }
-.contact .contact-l h2 {
+body .contact .contact-l h2 {
   border-bottom: 2px solid #ff714a;
   width: 18%;
   line-height: 48px;
 }
-.contact .contact-info {
+body .contact .contact-info {
   width: 100%;
   text-align: center;
   display: flex;
 }
-.contact .contact-info h2 {
+body .contact .contact-info h2 {
   color: white;
   font-size: 25px;
 }
-.contact .contact-info p {
+body .contact .contact-info p {
   font-size: 16px;
   width: 70%;
   color: white;
   font-weight: 600;
 }
-.contact .contact-info .cn-no .call i {
+body .contact .contact-info .cn-no .call i {
   color: #ff714a;
   width: 46px;
   height: 46px;
@@ -394,10 +406,10 @@ header .header .social-icon i:hover {
   justify-content: center;
   align-items: center;
 }
-.contact .contact-info .cn-no .call p {
+body .contact .contact-info .cn-no .call p {
   width: 100%;
 }
-.contact .contact-info .cn-no .Email i {
+body .contact .contact-info .cn-no .Email i {
   color: #ff714a;
   width: 46px;
   height: 46px;
@@ -406,10 +418,10 @@ header .header .social-icon i:hover {
   justify-content: center;
   align-items: center;
 }
-.contact .contact-info .cn-no .Email p {
+body .contact .contact-info .cn-no .Email p {
   width: 100%;
 }
-.contact .contact-info .cn-no .Whatsapp i {
+body .contact .contact-info .cn-no .Whatsapp i {
   color: #ff714a;
   width: 46px;
   height: 46px;
@@ -418,25 +430,25 @@ header .header .social-icon i:hover {
   justify-content: center;
   align-items: center;
 }
-.contact .contact-info .cn-no .Whatsapp p {
+body .contact .contact-info .cn-no .Whatsapp p {
   width: 100%;
 }
-.contact .contact-info .follow {
+body .contact .contact-info .follow {
   width: 100%;
 }
-.contact .contact-info .follow p {
+body .contact .contact-info .follow p {
   color: white;
   font-size: 25px;
   width: 100%;
 }
-.contact .contact-info .follow .social-c {
+body .contact .contact-info .follow .social-c {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
   font-size: 25px;
 }
-.contact .contact-info .follow .social-c a i {
+body .contact .contact-info .follow .social-c a i {
   color: white;
   width: 46px;
   height: 46px;
@@ -445,46 +457,46 @@ header .header .social-icon i:hover {
   justify-content: center;
   align-items: center;
 }
-.contact .contact-info .follow .social-c a:hover {
+body .contact .contact-info .follow .social-c a:hover {
   background-color: #ff714a;
 }
-.contact .namel {
+body .contact .namel {
   width: 100%;
 }
-.contact .namel input {
+body .contact .namel input {
   width: 50%;
   background-color: #2a2a2a;
   border: none;
   color: white;
   padding: 8px;
 }
-.contact .namel input::-moz-placeholder {
+body .contact .namel input::-moz-placeholder {
   color: rgb(140, 138, 138);
   font-weight: 600;
 }
-.contact .namel input::placeholder {
+body .contact .namel input::placeholder {
   color: rgb(140, 138, 138);
   font-weight: 600;
 }
-.contact .msg {
+body .contact .msg {
   width: 100%;
 }
-.contact .msg textarea {
+body .contact .msg textarea {
   width: 100%;
   background-color: #2a2a2a;
   border: none;
   color: white;
   padding: 8px;
 }
-.contact .msg textarea::-moz-placeholder {
+body .contact .msg textarea::-moz-placeholder {
   color: rgb(140, 138, 138);
   font-weight: 600;
 }
-.contact .msg textarea::placeholder {
+body .contact .msg textarea::placeholder {
   color: rgb(140, 138, 138);
   font-weight: 600;
 }
-.contact .msg-btn1 {
+body .contact .msg-btn1 {
   background-color: black;
   border: none;
   display: flex;
@@ -492,7 +504,7 @@ header .header .social-icon i:hover {
   align-items: center;
   width: 100%;
 }
-.contact .msg-btn1 .msg-btn {
+body .contact .msg-btn1 .msg-btn {
   border: 1px solid rgb(255, 113, 74);
   border-radius: 25px;
   color: rgb(255, 113, 74);
@@ -504,21 +516,550 @@ header .header .social-icon i:hover {
   font-size: 16px;
   letter-spacing: 1px;
 }
-.contact .msg-btn1 .msg-btn:hover {
+body .contact .msg-btn1 .msg-btn:hover {
   background-color: #ff714a;
   color: white;
 }
-
-#nav-icon {
+body #nav-icon {
   font-size: 35px;
   color: white;
   position: absolute;
   left: 30px;
   top: 15px;
   cursor: pointer;
+  font-weight: 500;
+}
+body #nav-icon {
+  display: none;
 }
 
-#nav-icon {
+body.white-theme {
+  display: flex;
+}
+body.white-theme .cursor {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid #ff714a;
+  transition: all 200ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(calc(-50% + 15px), -50%);
+  z-index: 991;
+}
+body.white-theme .cursor2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #ff714a;
+  opacity: 0.8;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: width 0.3s, height 0.3s, opacity 0.3s;
+  z-index: 992;
+}
+body.white-theme .container-xl {
+  max-width: 1050px;
+}
+body.white-theme .trans {
+  background-color: transparent !important;
+  border: none !important;
+}
+body.white-theme .trans-1 {
+  background: rgba(0, 0, 0, 0.2196078431);
+  border-right: 2px solid #ff714a;
+}
+body.white-theme .mode {
+  position: absolute;
+  top: 13px;
+  right: 3%;
+  z-index: 99;
+}
+body.white-theme .mode i {
+  cursor: pointer;
+  background: black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+}
+body.white-theme header {
+  background-color: #ebe7e7;
+  width: 25%;
+}
+body.white-theme header .header {
+  display: flex;
+  width: 20%;
+  position: fixed;
+}
+body.white-theme header .header .profile {
+  display: block;
+}
+body.white-theme header .header .profile .round {
+  height: 130px;
+  width: 130px;
+  border-radius: 65px;
+  margin: 6.6666px auto;
+}
+body.white-theme header .header .profile .round .round-img img {
+  border-radius: 50%;
+  border: 2px solid #ff714a;
+}
+body.white-theme header .header .profile h1 {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "EB Garamond", serif;
+  color: black;
+}
+body.white-theme header .header nav ul #home {
+  background: rgba(0, 0, 0, 0.2196078431);
+  border-right: 2px solid #ff714a;
+}
+body.white-theme header .header nav ul #home:hover {
+  background-color: rgba(0, 0, 0, 0.2196078431) !important;
+  border-right: 2px solid #ff714a !important;
+}
+body.white-theme header .header nav ul li {
+  padding: 10px;
+  transition: 0.3s ease;
+}
+body.white-theme header .header nav ul li:hover {
+  background-color: rgba(0, 0, 0, 0.2196078431);
+  border-right: 2px solid #ff714a;
+}
+body.white-theme header .header nav ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+body.white-theme header .header .social-icon i {
+  width: 50px;
+  font-size: 25px;
+  padding: 12px;
+  color: black;
+}
+body.white-theme header .header .social-icon i:hover {
+  background-color: #ff714a;
+  transition: 0.3s all ease-in-out;
+  color: black;
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+body.white-theme .banner {
+  background-image: url("/images/coding-man.jpg");
+  width: 100%;
+  background-size: cover;
+  animation: ani 0.6s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px 0px;
+  height: 100vh;
+}
+body.white-theme .banner .banner1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body.white-theme .banner .banner1 .name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+body.white-theme .banner .banner1 .name h1 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+body.white-theme .banner .banner1 .name p {
+  font-size: 25px;
+  font-weight: 700;
+  height: 50px;
+}
+body.white-theme .about {
+  display: none;
+  padding: 25px 0px;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+}
+body.white-theme .about .head h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.55);
+}
+body.white-theme .about .about-l {
+  color: black;
+}
+body.white-theme .about .about-l p {
+  font-size: 16px;
+  font-weight: 500;
+}
+body.white-theme .about .about-r {
+  color: black;
+}
+body.white-theme .about .about-r #mail {
+  color: #ff714a;
+}
+body.white-theme .about .about-r p {
+  border-bottom: 1px solid #ff714a;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 4px 0;
+}
+body.white-theme .about .web-d {
+  color: black;
+}
+body.white-theme .about .web-d p {
+  font-size: 16px;
+  font-weight: 500;
+}
+body.white-theme .resume {
+  display: none;
+  padding: 25px 0px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+body.white-theme .resume .head h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.55);
+}
+body.white-theme .resume .about-l {
+  color: black;
+}
+body.white-theme .resume .about-l h2 {
+  width: 128px;
+  border-bottom: 2px solid #ff714a;
+}
+body.white-theme .resume .about-l p {
+  font-size: 16px;
+  font-weight: 500;
+}
+body.white-theme .resume .uni {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 145px;
+}
+body.white-theme .resume .line {
+  height: 146px;
+  width: 2px;
+  background: rgb(54, 54, 54);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body.white-theme .resume .round {
+  height: 15px;
+  width: 15px;
+  border: 3px solid #ff714a;
+  border-radius: 50%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+body.white-theme .resume .co {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  color: black;
+}
+body.white-theme .resume .hire-me {
+  text-align: center;
+}
+body.white-theme .resume .hire-me button {
+  border: 1px solid #ff714a;
+  border-radius: 25px;
+  color: #ff714a;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  width: 203px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+body.white-theme .resume .hire-me button i {
+  width: 30px;
+}
+body.white-theme .resume .hire-me button:hover {
+  background-color: #ff714a;
+  color: black;
+}
+body.white-theme .portfolio {
+  color: black;
+  display: none;
+  padding: 25px 0px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+body.white-theme .portfolio .head h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.55);
+}
+body.white-theme .portfolio .port-l {
+  color: black;
+}
+body.white-theme .portfolio .port-l p {
+  font-size: 16px;
+  font-weight: 500;
+}
+body.white-theme .portfolio .port-l h2 {
+  border-bottom: 2px solid #ff714a;
+  width: 173px;
+  line-height: 48px;
+}
+body.white-theme .portfolio .p-box {
+  height: 200px;
+  position: relative;
+}
+body.white-theme .portfolio .p-box img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  transition: 0.3s all ease-in-out;
+}
+body.white-theme .portfolio .p-box p {
+  display: none;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  font-size: 25px;
+  top: 55px;
+  left: 0;
+  font-weight: 600;
+  color: #222222;
+  transition: 0.6s all ease-in-out;
+}
+body.white-theme .portfolio .p-box:hover p {
+  display: block;
+}
+body.white-theme .portfolio .p-box:hover img {
+  filter: blur(10px);
+}
+body.white-theme .portfolio .p-box2 {
+  height: 200px;
+  position: relative;
+}
+body.white-theme .portfolio .p-box2 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  transition: 0.3s all ease-in-out;
+}
+body.white-theme .portfolio .p-box2 p {
+  display: none;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  font-size: 25px;
+  top: 55px;
+  left: 0;
+  font-weight: 600;
+  color: white;
+  transition: 0.6s all ease-in-out;
+}
+body.white-theme .portfolio .p-box2:hover p {
+  display: block;
+}
+body.white-theme .portfolio .p-box2:hover img {
+  filter: blur(10px);
+}
+body.white-theme .contact {
+  display: none;
+  padding: 25px 0px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+body.white-theme .contact .head h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.55);
+}
+body.white-theme .contact .contact-l {
+  color: black;
+}
+body.white-theme .contact .contact-l p {
+  font-size: 16px;
+  font-weight: 500;
+}
+body.white-theme .contact .contact-l h2 {
+  border-bottom: 2px solid #ff714a;
+  width: 18%;
+  line-height: 48px;
+}
+body.white-theme .contact .contact-info {
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+body.white-theme .contact .contact-info h2 {
+  color: black;
+  font-size: 25px;
+}
+body.white-theme .contact .contact-info p {
+  font-size: 16px;
+  width: 70%;
+  color: black;
+  font-weight: 600;
+}
+body.white-theme .contact .contact-info .cn-no .call i {
+  color: #ff714a;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body.white-theme .contact .contact-info .cn-no .call p {
+  width: 100%;
+}
+body.white-theme .contact .contact-info .cn-no .Email i {
+  color: #ff714a;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body.white-theme .contact .contact-info .cn-no .Email p {
+  width: 100%;
+}
+body.white-theme .contact .contact-info .cn-no .Whatsapp i {
+  color: #ff714a;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body.white-theme .contact .contact-info .cn-no .Whatsapp p {
+  width: 100%;
+}
+body.white-theme .contact .contact-info .follow {
+  width: 100%;
+}
+body.white-theme .contact .contact-info .follow p {
+  color: black;
+  font-size: 25px;
+  width: 100%;
+}
+body.white-theme .contact .contact-info .follow .social-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 25px;
+}
+body.white-theme .contact .contact-info .follow .social-c a i {
+  color: black;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body.white-theme .contact .contact-info .follow .social-c a:hover {
+  background-color: #ff714a;
+}
+body.white-theme .contact .namel {
+  width: 100%;
+}
+body.white-theme .contact .namel input {
+  width: 50%;
+  background-color: #dddddd;
+  border: none;
+  color: black;
+  padding: 8px;
+}
+body.white-theme .contact .namel input::-moz-placeholder {
+  color: rgb(140, 138, 138);
+  font-weight: 600;
+}
+body.white-theme .contact .namel input::placeholder {
+  color: rgb(140, 138, 138);
+  font-weight: 600;
+}
+body.white-theme .contact .msg {
+  width: 100%;
+}
+body.white-theme .contact .msg textarea {
+  width: 100%;
+  background-color: #dddddd;
+  border: none;
+  color: black;
+  padding: 8px;
+}
+body.white-theme .contact .msg textarea::-moz-placeholder {
+  color: rgb(140, 138, 138);
+  font-weight: 600;
+}
+body.white-theme .contact .msg textarea::placeholder {
+  color: rgb(140, 138, 138);
+  font-weight: 600;
+}
+body.white-theme .contact .msg-btn1 {
+  background-color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+body.white-theme .contact .msg-btn1 .msg-btn {
+  border: 1px solid rgb(255, 113, 74);
+  border-radius: 25px;
+  color: rgb(255, 113, 74);
+  background-color: white;
+  padding: 8px;
+  text-align: center;
+  width: 203px;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+body.white-theme .contact .msg-btn1 .msg-btn:hover {
+  background-color: #ff714a;
+  color: black;
+}
+body.white-theme #nav-icon {
+  font-size: 35px;
+  color: black;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+body.white-theme #nav-icon {
   display: none;
 }
 

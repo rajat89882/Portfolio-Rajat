@@ -66,10 +66,9 @@
     </div>
   </header>
   <section class="banner">
-    <div class="container-xl">
-      <div class="banner1">
-
-        <div class="name">
+    <div class="container-xl h-100">
+      <div class="banner1 h-100">
+        <div class="name h-100">
           <h1>RAJAT CHOUDHARY</h1>
           <div class="para d-flex align-items-center justify-content-center">
             <p class="front"></p>
@@ -468,8 +467,10 @@
       $("#nav-icon").click(function () {
         $("header").toggleClass("d-block");
       });
+      $(".mode i").click(function () {
+        $("body").toggleClass("white-theme");
 
-
+      });
     });
 
 

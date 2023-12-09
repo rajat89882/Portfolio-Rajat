@@ -1128,7 +1128,7 @@ body.white-theme #nav-icon {
     height: 100% !important;
   }
   .contact .contact-l h2 {
-    width: 28%;
+    width: 28% !important;
   }
   .cursor {
     display: none;

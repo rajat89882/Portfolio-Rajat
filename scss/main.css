@@ -278,7 +278,6 @@ body .resume .hire-me {
 body .resume .hire-me button {
   border: 1px solid #ff714a;
   border-radius: 25px;
-  color: #ff714a;
   background-color: black;
   padding: 10px;
   text-align: center;
@@ -287,11 +286,16 @@ body .resume .hire-me button {
   font-size: 16px;
   letter-spacing: 1px;
 }
+body .resume .hire-me button a {
+  color: #ff714a;
+}
 body .resume .hire-me button i {
   width: 30px;
 }
 body .resume .hire-me button:hover {
   background-color: #ff714a;
+}
+body .resume .hire-me button:hover a {
   color: white;
 }
 body .portfolio {

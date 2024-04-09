@@ -162,6 +162,7 @@ body {
     background-size: cover;
     padding: 25px 0px;
     overflow: hidden;
+    position: relative;
     height: 100vh;
     .banner1 {
       display: flex;
@@ -1325,4 +1326,11 @@ body.white-theme {
       }
     }
   }
+}
+
+.nextjs {
+  width: 100px;
+  position: absolute;
+  bottom: 5px;
+  right: 23px;
 }

@@ -150,6 +150,7 @@ body .banner {
   background-size: cover;
   padding: 25px 0px;
   overflow: hidden;
+  position: relative;
   height: 100vh;
 }
 body .banner .banner1 {
@@ -1193,4 +1194,10 @@ body.white-theme #nav-icon {
   header .header .profile h1 {
     font-size: 25px !important;
   }
+}
+.nextjs {
+  width: 100px;
+  position: absolute;
+  bottom: 5px;
+  right: 23px;
 }/*# sourceMappingURL=main.css.map */

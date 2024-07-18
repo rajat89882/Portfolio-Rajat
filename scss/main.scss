@@ -356,11 +356,12 @@ body {
         position: absolute;
         width: 100%;
         font-size: 25px;
-        top: 55px;
+        top: 50%;
         left: 0;
         font-weight: 600;
         color: #222222;
         transition: 0.6s all ease-in-out;
+        transform: translateY(-50%);
       }
       &:hover p {
         display: block;
@@ -383,11 +384,12 @@ body {
         position: absolute;
         width: 100%;
         font-size: 25px;
-        top: 55px;
+        top: 50%;
         left: 0;
         font-weight: 600;
-        color: white;
+        color: #fff;
         transition: 0.6s all ease-in-out;
+        transform: translateY(-50%);
       }
       &:hover p {
         display: block;
